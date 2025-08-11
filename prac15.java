@@ -119,7 +119,7 @@ class prac15{
 	}
 	static void fileops(){
 		try{
-			File file = new File("C:\\Users\\KN00832612\\Documents\\Test files\\test.txt"); 
+			File file = new File("test.txt"); 
 			if(file.createNewFile())
 				System.out.println("New File Created");
 			else
