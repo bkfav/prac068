@@ -3,8 +3,9 @@ import java.io.*;
 
 class prac15{
 	static void revstr(){
-		Scanner s = new Scanner(System.in); 
-		String str = s.nextLine();
+		/*Scanner s = new Scanner(System.in); 
+		String str = s.nextLine();*/
+		String str = "Hello";
 		String revstr = "";
 		for(int i=0; i<str.length(); i++)
 			revstr = str.charAt(i) + revstr; 
